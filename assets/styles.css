@@ -1,0 +1,77 @@
+/* styles.css */
+
+:root {
+    --primary: rgb(98, 102, 244);
+    --secondary: rgb(27, 136, 204);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: var(--primary);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+#description {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#download {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button {
+    background-color: var(--secondary);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: rgb(19, 87, 130);
+}
+
+#features {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--primary);
+    color: white;
+    position: absolute;
+    width: -webkit-fill-available;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
