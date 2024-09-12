@@ -20,8 +20,14 @@
 
         <section id="download">
             <h2>Baixar o Instalador</h2>
-            <p>Clique no botão abaixo para baixar o instalador da aplicação:</p>
-            <a href="./installer/installer.exe" class="button">Download</a>
+            <p>Escolha a versão desejada para baixar:</p>
+            <div id="download-container">
+                <select id="version-select">
+                    <option value="./installer/installer.exe">V1.0</option>
+                    <option value="./installer/matrixInstaller.exe">V1.1</option>
+                </select>
+                <button id="download-button" class="button">Download</button>
+            </div>
         </section>
 
         <section id="features">
@@ -37,5 +43,7 @@
     <footer>
         <p>Desenvolvido por [RaphaMX] &copy; - <a href="https://github.com/RaphaMX"><strong>GitHub</strong></a></p>
     </footer>
+
+    <script src="./assets/script.js"></script>
 </body>
 </html>
