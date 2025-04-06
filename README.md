@@ -3,5 +3,8 @@ This application was developed with the aim of calculating matrices using the La
 
 <br>
 
+# Link to the repository:
+<a href="https://github.com/RaphaMX/MatrixCalculatorApp" > Matrix Calculator App</a>
+
 # Link to the website:
 <a href="https://raphamx.github.io/MatrixCalculator/" > Matrix Calculator </a>
